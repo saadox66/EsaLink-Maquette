@@ -1,4 +1,5 @@
 import Card from "./card";
+import Intro from "./intro";
 import TechStack from "./teckStack";
 
 const profiles= [
@@ -70,17 +71,11 @@ const TechStyle = [
 
 
 
-
-
 export default function Section1() {
   return (
     <div className="mb-7 bg-white font-[family-name:var(--font-geist-sans)] px-5 py-3 text-black">
-      <section className="intro lg:px-20">
-        <h2>Les types de <span className="text-orange-500">profils</span></h2>
-        <br />
-        <p className="text-gray-700">EsaLink vous propose l’expertise de consultants hautement qualifiés dans des domaines à fortes compétences spécifiques, rares et recherchées sur le marché. Nos équipes sont spécialisées dans quatre domaines clés, chacun offrant un accompagnement adapté pour répondre précisément à vos besoins :
-        </p>
-      </section>
+      
+      <Intro />
         
       <div className="absolute hidden lg:flex items-center justify-center mt-4">
         < div className="max-[1358px]:w-45 w-85 p-4" >
