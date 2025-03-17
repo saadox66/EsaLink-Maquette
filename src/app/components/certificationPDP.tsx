@@ -5,7 +5,7 @@ import stamp from "../../../public/Assets/Essai Stage Site Internet (3).png";
 export default function CertificationPDP() {
   return (
     <section className="bg-white py-10 px-4 md:px-10 flex justify-center mt-5">
-      <div className="max-w-6xl flex flex-col md:flex-row items-center relative border-4 border-orange-400 rounded-xl p-6 shadow-lg" style={{ boxShadow: '0 20px 30px -10px rgba(0, 0, 0, 0.9)' }}>
+      <div className="max-w-6xl flex flex-col md:flex-row items-center relative border-4 border-orange-400 rounded-xl p-6 shadow-lg" style={{ boxShadow: "0 20px 30px -10px rgba(0, 0, 0, 0.9)" }}>
         {/* Left Image Section */}
         <div className="w-full md:w-1/4 flex justify-center md:justify-start relative">
           <div className="hidden md:inline-block bg-white absolute md:-bottom-25 md:-left-15 lg:-bottom-35 lg:-left-16 xl:-bottom-50 xl:-left-50  md:w-55 md:h-55 lg:w-70 lg:h-70 xl:w-100 xl:h-100 rounded-full border-4 border-orange-400 overflow-hidden">
