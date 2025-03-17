@@ -34,7 +34,7 @@ export default function CertificationPDP() {
               {/* Description div */}
               <div>
                 <p className="text-gray-700 text-sm lg:text-base">
-                  EsaLink vous annonce l'immatriculation officielle de sa
+                  EsaLink vous annonce l&apos;immatriculation officielle de sa
                   solution{" "}
                   <span className="font-bold underline text-black">
                     HUBTIMIZE E-Invoicing
